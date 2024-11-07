@@ -1,0 +1,39 @@
+body{
+    background-color: #C2E1C2;
+    padding: 0;
+    margin: 0;
+}
+#cadastro{
+    text-align: center;
+}
+
+input{
+    width: 30%;
+    height: 25px;
+    margin: 0 5px;
+    padding: 4px;
+    border-color: #b7c1b2;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+
+#botao__cadastro{
+    width: 10%;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    background-color: #5b6557;
+    color: #d0e7c7;
+    font-size: 15px;
+    font-weight: 600;
+    transition: width 1s,color 0.5s;
+}
+
+#botao__cadastro:hover{
+    width: 20%;
+    background-color: #73bb56;
+    color: #3b4238;
+    cursor: pointer;
+}
